@@ -215,7 +215,7 @@ h1, h2, h3 {
     position: relative;
     background: var(--bg-card);
     border: 1px solid var(--border-glass);
-    padding: 40px 30px;
+    padding: 30px;
     border-radius: 20px;
     overflow: hidden;
     backdrop-filter: blur(10px);
@@ -229,6 +229,21 @@ h1, h2, h3 {
     transform: translateY(-8px);
     border-color: rgba(255, 255, 255, 0.15);
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.card-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    border: 1px solid var(--border-glass);
+    transition: transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.program-card:hover .card-image {
+    transform: scale(1.03);
 }
 
 .card-glow {
