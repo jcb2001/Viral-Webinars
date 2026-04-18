@@ -6,7 +6,7 @@
     --text-secondary: #a1a1aa;
     --accent-orange: #ff4f28;
     --accent-glow: rgba(255, 79, 40, 0.4);
-    --gradient-primary: linear-gradient(135deg, #ff4f28 0%, #ff8c00 100%);
+    --gradient-primary: linear-gradient(135deg, #ff4f28 0%, #ff4f28 100%);
     --font-sans: 'Inter', sans-serif;
     --font-heading: 'Outfit', sans-serif;
 }
